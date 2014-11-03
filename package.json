@@ -1,0 +1,14 @@
+{
+  "name": "bocco",
+  "description": "Generate software documentation from Markdown",
+  "version": "0.0.1",
+  "dependencies": {
+    "": "",
+    "marked": "~0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akrymski/bocco.git"
+  },
+  "homepage": "https://github.com/akrymski/bocco"
+}
