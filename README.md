@@ -5,7 +5,7 @@ Inspired by [Backbone](http://backbonejs.org) and [Docco](https://github.com/jas
 
 Should be mostly compatible with the markdown produced by the [collaborative wiki editor](http://enterprisewiki.co), so you can commit your documentation to github.
 
-Example: [input](https://github.com/akrymski/bocco/blob/master/test.md) [output](http://htmlpreview.github.io/?https://github.com/akrymski/bocco/blob/master/test.html)
+Example: [input](https://cdn.rawgit.com/akrymski/bocco/master/test.md) [output](https://cdn.rawgit.com/akrymski/bocco/master/test.html)
 
 ### Installation
 
