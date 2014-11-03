@@ -1,13 +1,34 @@
 {
   "name": "bocco",
-  "description": "Generate software documentation from Markdown",
+  "description": "Generate Backbone-style documentation from Markdown",
   "version": "0.0.1",
   "dependencies": {
-    "marked": "~0.3.2"
+    "marked": "~0.3.2",
+    "commander": "~2.5.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/akrymski/bocco.git"
   },
-  "homepage": "https://github.com/akrymski/bocco"
+  "homepage": "https://github.com/akrymski/bocco",
+  "bugs": {
+    "url": "https://github.com/akrymski/bocco/issues"
+  },
+  "main": "./bocco",
+  "bin": {
+    "bocco" : "./bin/bocco"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "documentation",
+    "docco",
+    "docs",
+    "backbone",
+    "markdown"
+  ],
+  "author": "Artemi Krymski <artemi@krymski.com> (http://krymski.com/)",
+  "license": "MIT"
 }

@@ -1,5 +1,10 @@
 bocco
 =====
 
-npm install
-node bocco.js < test.md > test.html
+### Installation
+
+sudo npm install -g bocco
+
+### Usage
+
+bocco file.md > output.html

@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+var dir = path.join(path.dirname(fs.realpathSync(__filename)), '../');
+var bocco = require(dir + 'bocco.js');
+var program = require('commander');
+
+program
+  .version('0.0.1')
+  .usage('[options] file [output]')
+  .option('-t, --template', 'Template to use')
+  .parse(process.argv);
+
+if (program.args.length < 1) return program.help();
+
+var template = fs.readFileSync(program.template || dir + 'template.html').toString();
+var md = fs.readFileSync(program.args[0]).toString();
+var html = bocco(md, template);
+
+if (program.args[1]) fs.writeFileSync(program.args[1], html);
+else process.stdout.write(html);
