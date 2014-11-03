@@ -3,8 +3,8 @@ bocco
 
 ### Installation
 
-sudo npm install -g bocco
+    sudo npm install -g bocco
 
 ### Usage
 
-bocco file.md > output.html
+    bocco file.md > output.html
